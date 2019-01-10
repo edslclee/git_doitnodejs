@@ -8,11 +8,11 @@ var Users = [
 ];
 
 console.log('unshift() 이전 element의 수: %d', Users.length);
-
+// unshift()는 index[0]에 추가
 Users.unshift({name:'티아라', age:23});
 
 console.log('unshift() 이후 element의 수: %d', Users.length);
-// unshift()는 index[0]에 추가
+
 Users.forEach(function(item, index){
     console.log('배열 요소 #' + index + ' : %s', item.name);
 });
