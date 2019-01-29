@@ -1,3 +1,4 @@
+//객체정의  {}
 var person = {};
 person['age'] = 29;
 person['name'] = '소녀시대';
