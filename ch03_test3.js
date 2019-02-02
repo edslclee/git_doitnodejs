@@ -3,4 +3,4 @@ function add(a, b){
 }
 
 var result = add(10, 20);
-console.log('더하기 10 + 20 = %d', result);
+console.log('더하기결과 : 10 + 20 = %d', result);

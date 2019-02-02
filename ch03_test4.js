@@ -1,3 +1,5 @@
+// function add(a, b){};를 익명 함수로
+// var add = function(a, b){};
 var add = function (a, b){
     return a + b;
 }

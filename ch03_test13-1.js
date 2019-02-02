@@ -6,7 +6,7 @@ var Users = [
       name: '원더걸스',
     }
 ];
-
+//첫번째 parm : 몇번째, 두번째 parm: 0면 삽입
 console.log('splice로 Users[1]에 element 삽입');
 Users.splice(1,0, {name: '트와이스', age: 27});
 console.dir(Users);

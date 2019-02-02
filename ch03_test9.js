@@ -12,6 +12,6 @@ var add = function(a,b){
 };
 
 Users.push(add);
-
+console.dir(Users);
 console.log('배열 element의 수: %d', Users.length);
 console.log('세번째 요소로 추가된 함수 실행 : %d', Users[2](10,10));
