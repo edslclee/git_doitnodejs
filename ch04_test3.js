@@ -1,4 +1,6 @@
 //이벤트를 받기 위한 메소드
+//emit으로 보내고 on으로 받는다.
+
 process.on('tick', function(count){
 	console.log('tick event 발생함 : ' + count);
 });
